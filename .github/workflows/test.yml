@@ -14,9 +14,9 @@ jobs:
           go-version: stable
 
       - name: Lint server
-        uses: golangci/golangci-lint-action@v7
+        uses: golangci/golangci-lint-action@v8
         with:
-          version: v2.0
+          version: v2.1
           working-directory: ./
 
       - name: Test server
